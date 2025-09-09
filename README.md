@@ -35,4 +35,8 @@ This Second publish explores queues and trees in data structure projects.
 - A node is inserted in to The AVL tree from 1 to 10 (incrementally)
 - Normally, it could have caused a very deep and right sided tree, but since it's an avl tree it rotates and balances itself.
 - one can edit the [test](tests/src/avltree.cpp) file to increase the number and/or sequence of insertions to the tree.
+- in which case must run this in [tests/src/](tests/src) directory:
+- ```sh
+  g++ -I../../src/include -L../../src/lib avltree.cpp -o avltree -lbgi -lgdi32 
+  ```
 - However, the tree drawing mechanism is not scalable enough for large trees.
