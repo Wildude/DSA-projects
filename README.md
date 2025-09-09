@@ -29,6 +29,7 @@ This Second publish explores queues and trees in data structure projects.
 ### ScreenCapture
 1. **AVL tree visualization**
 <img src = "screenshots/AVL tree insertion.gif">
+
 - Uses simple [graphics](src/include/gfx/graphics.h) library for tree visualization.
 - Using breadth first search, it draws every adjacent node to the last drawn node.
 - A node is inserted in to The AVL tree from 1 to 10 (incrementally)
